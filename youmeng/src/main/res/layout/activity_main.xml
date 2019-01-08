@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_share_withoutboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="不带面板的分享" />
+
+
+    <Button
+        android:id="@+id/btn_share_withboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="带面板的分享" />
+
+    <Button
+        android:id="@+id/qq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="qq第三方登录" />
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_launcher_background"
+        />
+
+</LinearLayout>
